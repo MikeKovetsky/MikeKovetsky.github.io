@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Great+Vibes' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<title>Strive</title>
@@ -59,40 +60,6 @@
 	
 </div>
 
-<!-- about us -->
-<!-- <div class="wide-body-layout">
-<div href="about-us" class="about-us">
-	<div class="title">
-		<hr><h1>About Us</h1><hr>
-	</div>
-	<div class="swiper-container swiper-container-horizontal swiper-team">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<div class="photo"></div>
-				<div class="information">
-					<h2>Mike Kovetsky</h2>
-					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem culpa laudantium expedita velit, vel tenetur! Quos maiores, nobis fugit placeat ex fugiat excepturi assumenda impedit, optio rem ut deleniti et.</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<div class="photo"></div>
-				<div class="information">
-					<h2>Andrew Kudrenko</h2>
-					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptas vitae magni unde, praesentium? Aperiam numquam necessitatibus deleniti. Libero doloremque, cum numquam consequuntur voluptatum illo omnis odio quaerat inventore quas.</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<div class="photo"></div>
-				<div class="information">
-					<h2>Klassnyi Designer</h2>
-					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptates alias iusto voluptatum aperiam magnam officia vitae atque veritatis sit distinctio adipisci consequuntur repellendus delectus qui maxime architecto, eligendi eveniet.</p>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-pagination swiper-pagination-team"></div>
-	</div>	
-</div>
-</div> -->
 <!-- About-me-modal BEGIN-->
 <div class="modal animated fadeIn" id="about-me-modal">
 	<div class="modal-dialog">
@@ -356,13 +323,7 @@
 			$('.modal-dialog .modal-content').css('color', newColor);
 			$('.modal-dialog .modal-content').css('background', newColor2);
 
-			// $('.btn-primary').css('background-color', newColor);
-			
-   //      	$(".btn").hover(function(){
-   //  			$(this).css("background-color", "newColor");
-   //  		}, function(){
-   //  			$(this).css("background-color", "newColor");
-			// });
+
 		}	
 	});
 	$(document).ready(function() {
@@ -384,73 +345,8 @@
 		$('.filter').removeClass('active');
 		$(this).addClass('active');
 	});
-	  // $('.menu ul li').hover(
-	  // 	function(){
-	  // 	$(this).addClass('pulse');
-	  // 	$(this).removeClass('fadeIn');
-	  // 	$(this).css('animation-delay', '0.2s');
-	  // 	$(this).css('animation-iteration-count', 'infinite');
-	  // },
-	  // 	function(){
-	  // 	$(this).removeClass('pulse');
-	  // }
-	  // )
+
 	  
-	  setTimeout('$(".logo").addClass("animated pulse");', 1000)
-	  //novyi punkt
-	//    $(".menu ul").on("click","a", function (event) {
-	//    	event.preventDefault();
-	//    	var id  = $(this).attr('href');
-	//    	$('.welcome').removeClass('animated fadeIn');
-	//    	$('.menu').removeClass('animated fadeIn');
-	//    	$('.menu').addClass('animated fadeOutUp');
-	//    	$('.welcome').addClass('animated fadeOutUp');
-	//    	var currentSlider = mainSwiper.activeIndex;
-	//    	var pageColor = '';
- //        if (currentSlider === 0) pageColor = '#8EC9B0';
- //        if (currentSlider === 1) pageColor = '#C7DDFB'; 
- //        if (currentSlider === 2) pageColor = '#FBC489';
- //        $(id).css('color', pageColor);
-	// 	})
-	// });
-(function() {
-    if (typeof(window.orientation) !== 'undefined') {
-        function getDeviceWidth() {
-
-            var deviceWidth = window.orientation == 0 ? window.screen.width : window.screen.height;
-            if (navigator.userAgent.indexOf('Android') >= 0 && window.devicePixelRatio) {
-                deviceWidth = Math.min(window.innerWidth, window.outerWidth);
-                deviceWidth = deviceWidth / window.devicePixelRatio;
-            }
-
-            return deviceWidth;
-        }
-        var deviceWidth = getDeviceWidth();
-        var maxWidth = 480;
-        var ua = navigator.userAgent.toLowerCase();
-        var isAndroid = ua.indexOf("android") > -1;
-
-        if (deviceWidth <= maxWidth) {
-
-            if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-                var scale = deviceWidth / maxWidth;
-                document.write('<meta name="viewport" content="width=' + 480 + ', initial-scale=' + scale + '">');
-            } else {
-                document.write('<meta name="viewport" content="width=480"/>');
-            }
-        } else {
-            if (window.orientation == 0 || window.orientation == 180) {
-                document.write('<meta name="viewport" content="width=device-width,initial-scale=1">');
-                document.write('<meta name="viewport" content="width=device-width,max-scale=1">');
-            } else {
-
-                document.write('<meta name="viewport" content="width=device-height,initial-scale=1">');
-                document.write('<meta name="viewport" content="width=device-height,max-scale=1">');
-            }
-        }
-    }
-
-})();
 });
 	</script>
 

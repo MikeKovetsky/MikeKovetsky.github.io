@@ -1,8 +1,458 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<title>Strive</title>
+ 
+</head>
 <body>
-Hello World
-</body>
+<div class="menu">
+		<div class="menu-logo"><span>Innovative Front-End Development</span></div>
+		<ul>
+			<li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
+			<li><a href="" data-toggle="modal" data-target="#works-modal">Works</a></li>
+			<li><a href="https://www.elance.com/s/edit/mkovetsky/">Elance Account</a></li>
+			<li><a href="" data-toggle="modal" data-target="#callback-modal">CallBack</a></li>
+		</ul>
+</div>
+<div class="welcome">
+	<div class="swiper-container swiper-main">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide theme-1">
+				<div class="container">
+					<div class="inner">
+						<h1>I create</h1>
+						<h1 class="subtitle">and put our soul in, shaping the masterpiece</h1>
+					</div>
 
+				</div>
+			</div>
+			<div class="swiper-slide theme-2">
+				<div class="container">
+					<div class="inner">
+						<h1>I Strive</h1>
+						<h1 class="subtitle">because the Internet deserves better</h1>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide theme-3">
+				<div class="container">
+					<div class="inner">
+						<h1>I am</h1>
+						<div class="logo"><span>M. Kovetsky</span></div>
+						<h1 class="subtitle">And I inspire</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="btn-slide btn-prev hidden"></div>
+		<div class="btn-slide btn-next"></div>
+	</div>
+	
+</div>
+
+<!-- about us -->
+<!-- <div class="wide-body-layout">
+<div href="about-us" class="about-us">
+	<div class="title">
+		<hr><h1>About Us</h1><hr>
+	</div>
+	<div class="swiper-container swiper-container-horizontal swiper-team">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="photo"></div>
+				<div class="information">
+					<h2>Mike Kovetsky</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem culpa laudantium expedita velit, vel tenetur! Quos maiores, nobis fugit placeat ex fugiat excepturi assumenda impedit, optio rem ut deleniti et.</p>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="photo"></div>
+				<div class="information">
+					<h2>Andrew Kudrenko</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptas vitae magni unde, praesentium? Aperiam numquam necessitatibus deleniti. Libero doloremque, cum numquam consequuntur voluptatum illo omnis odio quaerat inventore quas.</p>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="photo"></div>
+				<div class="information">
+					<h2>Klassnyi Designer</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptates alias iusto voluptatum aperiam magnam officia vitae atque veritatis sit distinctio adipisci consequuntur repellendus delectus qui maxime architecto, eligendi eveniet.</p>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination swiper-pagination-team"></div>
+	</div>	
+</div>
+</div> -->
+<!-- About-me-modal BEGIN-->
+<div class="modal animated fadeIn" id="about-me-modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="subtitle">
+					<h2>Mike Kovetsky</h2>
+					<span>Front-End Development</span>
+					<hr>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="person-info">
+					<div class="col">
+						<h4>About Me</h4>
+						<p>Born in Kyiv, Ukraine. Junior Front-End Developer with a 1 year experiance of development. Love my job and adore innovative projects. Have a great team including designer and back-end masters. Always try to push the limits of the Internet.</p>
+						<p>Main skills: HTML5, CSS3, Javascript, Photoshop.</p>
+						<p>Additional skills: 3D-graphics (Blender), C++.</p>
+						<p>English: Upper-Intermediate</p>
+					</div>
+					<div class="col">
+						<div class="img"></div>
+					</div>
+					<div class="col">
+						<h4>Contacts</h4>
+						<div class="row"><span>e-mail : </span><span>myxanok@gmail.com</span></div>
+						<div class="row"><span>Elance Account :</span><span>mkovetsky</span></div>
+						<div class="row"><span>Moblie Phone : </span><span>+380975465626</span></div>
+						<div class="row"><span>Use either Telegram or Viber</span></div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="row">
+						<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
+						<div class="socials"><ul>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+						</ul>
+						</div>
+					</div>
+				</div>				
+		</div>
+	</div>
+</div>
+</div>
+<!-- About-me-modal END-->
+
+<!-- Works-modal BEGIN -->
+<div class="modal animated fadeIn" id="works-modal">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header"><span>my last works</span></div>
+			<div class="modal-body">
+				<div id="filter-container">
+					<!-- <div class="row">
+						<div class="filter-controls ">
+							<ul>
+								<li class="filter" data-filter="all">All works</li>
+								<li class="filter" data-filter=".landings">Landings</li>
+								<li class="filter" data-filter=".ishops">Internet Shop</li>
+								<li class="filter" data-filter=".graphics">3D-graphics works</li>
+							</ul>
+							<hr>
+						</div>
+					</div> -->
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
+							<img src="images/markizy.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
+								<span>A fully-responsive landing</span>
+							</div>
+						</div>
+						<div data-myorder="1" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item ishops">
+							<img src="images/dore.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://dore.ua/" class="name">Dore.ua</a>
+								<span>A fully-responsive Internet shop</span>
+							</div>
+						</div>
+						<div data-myorder="2" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
+							<img src="images/rollety.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://td-tekko.com/" class="name">td-tekko.com</a>
+								<span>A fully-responsive landing</span>
+							</div>
+						</div>
+						<div data-myorder="3" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item graphics">
+							<img src="images/3d-work-1.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="images/3d-work-1.jpg" class="name">Sakura</a>
+								<span>Inspired by A. Price</span>
+							</div>
+						</div>
+						<div data-myorder="4" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item graphics">
+							<img src="images/chess.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="images/chess.jpg" class="name">Chess</a>
+								<span>Just some chess</span>
+							</div>
+						</div>
+						<div data-myorder="5" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
+							<img src="images/otakaty.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://td-tekko.org/" class="name">td-tekko.org</a>
+								<span>A fully-responsive landing</span>
+							</div>
+						</div>
+						<div data-myorder="6" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item ishops">
+							<img src="images/dore-2.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://dore.ua/" class="name">dore.ua</a>
+								<span>A fully-responsive Internet Shop</span>
+							</div>
+						</div>
+						<div data-myorder="7" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
+							<img src="images/markizy-2.jpg" height="" width="" alt="">
+							<div class="overlay">
+								<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
+								<span>A fully-responsive landing</span>
+							</div>
+						</div>
+			</div>
+
+			<div class="modal-footer">
+				<div class="row">
+						<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
+						<div class="socials"><ul>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+						</ul>
+						</div>
+					</div>
+			</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Works-modal END -->
+
+<!-- callBackmodal BEGIN -->
+<div class="modal animated fadeIn" id="callback-modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header row">
+				<h4 class="modal-title">CallBack</h4>
+				<button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<span class="text">You may e-mail me:</span>
+				</div>
+				<form id="callback-form" action="http://formspree.io/myxanok@gmail.com" >
+				<div class="row">
+					<label class="col-sm-3" for="name-input">Name:</label>
+					<input  class="col-sm-6" type="text" name="name" id="name-input" required minlength="2">
+				</div>
+				<div class="row">
+					<label class="col-sm-3" for="email-input">Your e-mail:</label>
+					<input  class="col-sm-6" type="email" name="email" id="email-input" required>
+				</div>
+				<div class="row">
+					<label  class="col-sm-3" for="message-input">The message:</label>
+					<textarea id="message-input" class="col-sm-6" type="text" name="comment" required> </textarea>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 col-xs-3"></div>
+					<div class="col-sm-6 col-xs-6 button-container">
+					<button class="btn btn-primary" type="button" data-dismiss="modal">send</button></div>
+				</div>
+				</form>
+			<div class="modal-footer">
+				<div class="row">
+					<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
+					<div class="socials"><ul>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- callBackmodal END -->
+
+
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+
+
+
+<script>
+
+
+	var TeamSwiper = new Swiper('.swiper-team', {
+		pagination: '.swiper-pagination-team',
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 'auto',
+		coverflow: {
+			rotate: 50,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows : true
+		}
+	});
+
+
+
+	var mainSwiper = new Swiper('.welcome .swiper-container', {
+		pagination: '.welcome .swiper-pagination',
+		effect: 'cube',
+		nextButton: '.btn-next',
+		prevButton: '.btn-prev',
+		grabCursor: true,
+		speed: 700,
+		cube: {
+			shadow: false,
+			slideShadows: false,
+			shadowOffset: 20,
+			shadowScale: 0.94
+		},
+
+		onTransitionStart: function (mainSwiper) {
+			var nextSlideIndex = mainSwiper.activeIndex;
+			var newColor = '';
+			var newColor2 = '';
+			if (nextSlideIndex === 0) {
+				newColor = '#8EC9B0';
+				newColor2 = '#141217';
+				$('.btn-prev').addClass('hidden');
+			}
+			if (nextSlideIndex === 1) {
+				newColor = '#C7DDFB';
+				newColor2 = '#0A0C15';
+				$('.btn-prev').removeClass('hidden');
+				$('.btn-next').removeClass('hidden');
+			} 
+			if (nextSlideIndex === 2) {
+				newColor = '#FBC489';
+				newColor2 = '#1F1613';
+				$('.btn-next').addClass('hidden');
+			}
+			$('.swiper-pagination-bullet').css( "background-color", "black");
+			$('.swiper-pagination-bullet-active').css( "background-color", newColor );
+			$( ".menu" ).children().css( "color", newColor );
+			$('.modal-dialog .modal-content').css('color', newColor);
+			$('.modal-dialog .modal-content').css('background', newColor2);
+
+			// $('.btn-primary').css('background-color', newColor);
+			
+   //      	$(".btn").hover(function(){
+   //  			$(this).css("background-color", "newColor");
+   //  		}, function(){
+   //  			$(this).css("background-color", "newColor");
+			// });
+		}	
+	});
+	$(document).ready(function() {
+	  $('.welcome').addClass('animated fadeIn');
+	  $('.theme-1 .inner').children().addClass('animated fadeIn');
+	  $('.menu').children().addClass('animated fadeIn');
+	  $('.btn-slide').addClass('animated fadeIn');
+	  $('#callback-form').validate();
+
+	  $(function(){
+		$('#filter-container').mixItUp({
+			animation: {
+				effects: 'fade rotateX(180deg)',
+				duration: 2500
+			}
+			});
+		});
+	  $('.filter').click(function() {
+		$('.filter').removeClass('active');
+		$(this).addClass('active');
+	});
+	  // $('.menu ul li').hover(
+	  // 	function(){
+	  // 	$(this).addClass('pulse');
+	  // 	$(this).removeClass('fadeIn');
+	  // 	$(this).css('animation-delay', '0.2s');
+	  // 	$(this).css('animation-iteration-count', 'infinite');
+	  // },
+	  // 	function(){
+	  // 	$(this).removeClass('pulse');
+	  // }
+	  // )
+	  
+	  setTimeout('$(".logo").addClass("animated pulse");', 1000)
+	  //novyi punkt
+	//    $(".menu ul").on("click","a", function (event) {
+	//    	event.preventDefault();
+	//    	var id  = $(this).attr('href');
+	//    	$('.welcome').removeClass('animated fadeIn');
+	//    	$('.menu').removeClass('animated fadeIn');
+	//    	$('.menu').addClass('animated fadeOutUp');
+	//    	$('.welcome').addClass('animated fadeOutUp');
+	//    	var currentSlider = mainSwiper.activeIndex;
+	//    	var pageColor = '';
+ //        if (currentSlider === 0) pageColor = '#8EC9B0';
+ //        if (currentSlider === 1) pageColor = '#C7DDFB'; 
+ //        if (currentSlider === 2) pageColor = '#FBC489';
+ //        $(id).css('color', pageColor);
+	// 	})
+	// });
+(function() {
+    if (typeof(window.orientation) !== 'undefined') {
+        function getDeviceWidth() {
+
+            var deviceWidth = window.orientation == 0 ? window.screen.width : window.screen.height;
+            if (navigator.userAgent.indexOf('Android') >= 0 && window.devicePixelRatio) {
+                deviceWidth = Math.min(window.innerWidth, window.outerWidth);
+                deviceWidth = deviceWidth / window.devicePixelRatio;
+            }
+
+            return deviceWidth;
+        }
+        var deviceWidth = getDeviceWidth();
+        var maxWidth = 480;
+        var ua = navigator.userAgent.toLowerCase();
+        var isAndroid = ua.indexOf("android") > -1;
+
+        if (deviceWidth <= maxWidth) {
+
+            if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                var scale = deviceWidth / maxWidth;
+                document.write('<meta name="viewport" content="width=' + 480 + ', initial-scale=' + scale + '">');
+            } else {
+                document.write('<meta name="viewport" content="width=480"/>');
+            }
+        } else {
+            if (window.orientation == 0 || window.orientation == 180) {
+                document.write('<meta name="viewport" content="width=device-width,initial-scale=1">');
+                document.write('<meta name="viewport" content="width=device-width,max-scale=1">');
+            } else {
+
+                document.write('<meta name="viewport" content="width=device-height,initial-scale=1">');
+                document.write('<meta name="viewport" content="width=device-height,max-scale=1">');
+            }
+        }
+    }
+
+})();
+});
+	</script>
+
+</body>
 </html>

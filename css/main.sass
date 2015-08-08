@@ -170,7 +170,7 @@ body
 		h1
 			color: $color1
 		h1.subtitle
-			text-shadow: #110F14 0.2px 0.2px, #362933 0.2px 0.2px, #1F161B 0.2px 0.2px, #17141B -0.2px 0.2px, #24242E -0.2px 0.2px, #211F25 -0.2px -0.2px, #151219 0.2px -0.2px, #24242E 0.2px -0.2px
+			// text-shadow: #110F14 0.2px 0.2px, #362933 0.2px 0.2px, #1F161B 0.2px 0.2px, #17141B -0.2px 0.2px, #24242E -0.2px 0.2px, #211F25 -0.2px -0.2px, #151219 0.2px -0.2px, #24242E 0.2px -0.2px
 			// text-shadow: #110F14 1px 0px, #362933 1px 1px, #1F161B 0px 1px, #17141B -1px 1px, #24242E -1px 0px, #211F25 -1px -1px, #151219 0px -1px, #24242E 1px -1px
 		.btn:hover
 			background: #679E87
@@ -390,6 +390,7 @@ body
 		span
 			font-size: 40px
 			text-transform: uppercase
+			padding-top: 0
 	.modal-content
 		padding: 15px
 		.mix
@@ -482,6 +483,12 @@ body
 				margin-right: 3px
 
 
+#callback-modal
+	.modal-header
+		padding-top: 0
+		.close
+			margin-top: 4px
+
 
 @media screen and (max-width: 1125px)
 	.menu-logo
@@ -489,6 +496,9 @@ body
 	.menu
 		ul
 			float: none
+			li
+				a
+					font-size: 40px
 	#about-me-modal
 		.person-info
 			display: block
@@ -496,6 +506,10 @@ body
 			margin: 0 auto !important
 			width: 90%
 			text-align: center
+	.welcome
+		.swiper-pagination-bullet
+			width: 25px
+			height: 25px
 
 @media screen and (max-width: 720px)
 	.modal-dialog
@@ -519,5 +533,6 @@ body
 	#works-modal
 		.modal-lg
 			width: 90%
+
 
 

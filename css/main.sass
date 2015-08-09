@@ -43,7 +43,7 @@ html,body
 
 body
 	background: black
-	font-family: 'Great Vibes', 'Satisfy', Helvetica Neue,Helvetica,Arial,sans-serif !important
+	font-family: 'Great Vibes' 'Satisfy', Helvetica Neue,Helvetica,Arial,sans-serif !important
 	font-size: 14px
 	color: black
 	margin: 0
@@ -157,9 +157,9 @@ body
 	.swiper-pagination
 		z-index: 20
 	.swiper-pagination-bullet
-		opacity: .8
-		height: 18px
-		width: 18px
+		opacity: .9 !important
+		height: 21px
+		width: 21px
 	.swiper-pagination-bullet-active 
 		background: $color1-2
 
@@ -340,7 +340,13 @@ body
 	.modal-title
 		float: left
 	button.close
-		float: right
+		position: absolute
+		right: 15px
+		top: 10px
+		opacity: .7
+	button.close:hover
+		color: inherit
+		opacity: .5
 	.modal-body
 		padding: 0
 	.modal-header
@@ -388,10 +394,10 @@ body
 		width: 75%
 	.modal-header
 		border: none
+		padding-top: 0
 		span
 			font-size: 40px
 			text-transform: uppercase
-			padding-top: 0
 	.modal-content
 		padding: 15px
 		.mix
@@ -488,7 +494,6 @@ body
 	.modal-dialog
 		margin-top: 5% !important
 	.modal-header
-		padding-top: 0
 		.close
 			margin-top: 4px
 

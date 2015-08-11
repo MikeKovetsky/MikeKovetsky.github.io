@@ -10,6 +10,7 @@
 	<title>Strive</title>
 </head>
 <body>
+
 <div class="menu">
 		<div class="menu-logo"><span>Innovative Front-End Development</span></div>
 		<ul>
@@ -113,90 +114,92 @@
 			<button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
 			<div class="modal-header"><span>my last works</span></div>
 			<div class="modal-body">
-				<div id="filter-container">
-					<!-- <div class="row">
-						<div class="filter-controls ">
+				<div class="row">
+					<div id="filter-container">
+						<div class="filter_div controls">
+
 							<ul>
-								<li class="filter" data-filter="all">All works</li>
-								<li class="filter" data-filter=".landings">Landings</li>
-								<li class="filter" data-filter=".ishops">Internet Shop</li>
-								<li class="filter" data-filter=".graphics">3D-graphics works</li>
+								<li class="filter active" data-filter="all">All works</li>
+								<li class="filter" data-filter=".category_1">Landings</li>
+								<li class="filter" data-filter=".category_2">Internet Shop</li>
+								<li class="filter" data-filter=".category_3">3D-graphics works</li>
 							</ul>
 							<hr>
 						</div>
-					</div> -->
-						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
-							<img src="images/markizy.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
-								<span>A fully-responsive landing</span>
+						<div id="portfolio_grid">
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
+								<img src="images/markizy.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
+									<span>A fully-responsive landing</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
+								<img src="images/dore.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://dore.ua/" class="name">Dore.ua</a>
+									<span>A fully-responsive Internet shop</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
+								<img src="images/rollety.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://td-tekko.com/" class="name">td-tekko.com</a>
+									<span>A fully-responsive landing</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
+								<img src="images/3d-work-1.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="images/3d-work-1.jpg" class="name">Sakura</a>
+									<span>Inspired by A. Price</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
+								<img src="images/chess.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="images/chess.jpg" class="name">Chess</a>
+									<span>Just some chess</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
+								<img src="images/otakaty.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://td-tekko.org/" class="name">td-tekko.org</a>
+									<span>A fully-responsive landing</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
+								<img src="images/dore-2.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://dore.ua/" class="name">dore.ua</a>
+									<span>A fully-responsive Internet Shop</span>
+								</div>
+							</div>
+							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
+								<img src="images/markizy-2.jpg" height="" width="" alt="">
+								<div class="overlay">
+									<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
+									<span>A fully-responsive landing</span>
+								</div>
 							</div>
 						</div>
-						<div data-myorder="1" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item ishops">
-							<img src="images/dore.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://dore.ua/" class="name">Dore.ua</a>
-								<span>A fully-responsive Internet shop</span>
-							</div>
-						</div>
-						<div data-myorder="2" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
-							<img src="images/rollety.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://td-tekko.com/" class="name">td-tekko.com</a>
-								<span>A fully-responsive landing</span>
-							</div>
-						</div>
-						<div data-myorder="3" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item graphics">
-							<img src="images/3d-work-1.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="images/3d-work-1.jpg" class="name">Sakura</a>
-								<span>Inspired by A. Price</span>
-							</div>
-						</div>
-						<div data-myorder="4" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item graphics">
-							<img src="images/chess.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="images/chess.jpg" class="name">Chess</a>
-								<span>Just some chess</span>
-							</div>
-						</div>
-						<div data-myorder="5" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
-							<img src="images/otakaty.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://td-tekko.org/" class="name">td-tekko.org</a>
-								<span>A fully-responsive landing</span>
-							</div>
-						</div>
-						<div data-myorder="6" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item ishops">
-							<img src="images/dore-2.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://dore.ua/" class="name">dore.ua</a>
-								<span>A fully-responsive Internet Shop</span>
-							</div>
-						</div>
-						<div data-myorder="7" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item landings">
-							<img src="images/markizy-2.jpg" height="" width="" alt="">
-							<div class="overlay">
-								<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
-								<span>A fully-responsive landing</span>
-							</div>
-						</div>
-			</div>
+					</div>
+				</div>
 
 			<div class="modal-footer">
 				<div class="row">
-						<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
+					<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
 						<div class="socials"><ul>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
 							<li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
 							<li><a href="#"><i class="fa fa-github"></i></a></li>
-						</ul>
+							</ul>
 						</div>
-					</div>
+				</div>
 			</div>
-
-			</div>
+		</div>
 		</div>
 	</div>
 </div>
@@ -339,6 +342,7 @@
 			}
 			});
 		});
+	  $('#portfolio_grid').mixItUp();
 	  $('.filter').click(function() {
 		$('.filter').removeClass('active');
 		$(this).addClass('active');

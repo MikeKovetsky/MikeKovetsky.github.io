@@ -405,7 +405,12 @@ body
 	.modal-content
 		padding: 15px
 		.mix
-			// display: none
+			display: none 
+			-webkit-transform-style: preserve-3d
+			-moz-transform-style: preserve-3d
+			-ms-transform-style: preserve-3d
+			transform-style: preserve-3d
+			transition: all 1s
 		.mix:hover .overlay
 			opacity: .9
 		.overlay
@@ -442,6 +447,7 @@ body
 				position: relative
 				cursor: pointer
 				margin-right: 20px
+			.active:after,
 			.filter:after
 				content: ""
 				display: block
@@ -454,6 +460,7 @@ body
 				transition: all 0.3s
 				box-sizing: border-box
 				width: 0
+			.active:after,
 			.filter:hover:after
 				width: 100%
 				background-color: transparent

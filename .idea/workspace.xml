@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a3053e-a0df-4a1e-92bf-790fb7eb2480" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MikeKovetsky.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cta-illustration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/favicon/fishing.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero-back-illustration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero-top-illustration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pricing-illustration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_include-media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_cta.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3d-work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chess.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dore-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/down13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/footer_lodyas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fore-bird-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fore-bird-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fore-bird-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/markizy-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/markizy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nice_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/orange_flowers_11-wallpaper-1600x900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/otakaty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rollety-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rollety.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper.min.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/favicon/fishing.ico">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/favicon/site.webmanifest">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/main.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LYNCH</find>
+      <find>powell</find>
+      <find>Consultants</find>
+      <find>Fisher</find>
+      <find>Consul</find>
+      <find>Fishe</find>
+      <find>Lynch</find>
+      <find>join us</find>
+      <find>chat-widget</find>
+      <find>Landing template for startups</find>
+      <find>Pre order now</find>
+      <find>fav</find>
+      <find>header-logo-image</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX.htm" />
+        <option value="$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX_files/trading-consultant.html" />
+        <option value="$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX_files/index.html" />
+        <option value="$PROJECT_DIR$/solid/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="favicon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a3053e-a0df-4a1e-92bf-790fb7eb2480" name="Default Changelist" comment="" />
+      <created>1609254455355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609254455355</updated>
+      <workItem from="1609254456893" duration="2184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2184000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="553" column="50" selection-start-line="553" selection-start-column="50" selection-end-line="553" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX_files/trading-consultant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="884" column="293" selection-start-line="884" selection-start-column="293" selection-end-line="884" selection-end-column="293" />
+          <folding>
+            <element signature="e#344961#344967#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#350301#350306#0" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#wix-dropdown-menu#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#header#0;n#header#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wix-bg-media#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#wix-video#0;n#wix-bg-media#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wix-image#0;n#wix-video#0;n#wix-bg-media#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#wix-video#0;n#wix-bg-media#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#div#1;n#div#0;n#div#2;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#div#1;n#div#0;n#div#3;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#wix-image#0;n#div#1;n#div#0;n#div#4;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#6;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#p#0;n#div#6;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#7;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#p#0;n#div#7;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#8;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#p#0;n#div#8;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#5;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#1;n#div#1;n#footer#0;n#footer#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#393604#393610#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX_files/site-widget.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret column="4623" selection-start-column="4623" selection-end-column="4623" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX_files/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-sample.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solid/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="93" column="86" selection-start-line="93" selection-start-column="86" selection-end-line="93" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/android-chrome-512x512.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/android-chrome-192x192.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/site.webmanifest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/favicon/fishing.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

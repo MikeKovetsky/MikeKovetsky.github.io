@@ -1,359 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=720">
-	<link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Great+Vibes' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<title>Strive</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fishermen Trading</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="src/images/favicon/fishing.ico">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="src/images/favicon/fishing.ico" alt="Logo" width="32px">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-<div class="menu">
-		<div class="menu-logo"><span>Innovative Front-End Development</span></div>
-		<ul>
-			<li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
-			<li><a href="" data-toggle="modal" data-target="#works-modal">Works</a></li>
-			<li><a href="" data-toggle="modal" data-target="#callback-modal">CallBack</a></li>
-			<li><a href="https://www.linkedin.com/in/mike-kovetsky-452476109" target="_blank">LinkedIn Account</a></li>
-		</ul>
-</div>
-<div class="welcome">
-	<div class="swiper-container swiper-main">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide theme-1">
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Fishermen Trading</h1>
+	                        <p class="hero-paragraph">Our cross-national team has been using the power of code to beat the market for 3 years</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="mailto:Fishermentrading@gmail.com">Contact Us</a></div>
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+							<div class="hero-figure-box hero-figure-box-05"></div>
+							<div class="hero-figure-box hero-figure-box-06"></div>
+							<div class="hero-figure-box hero-figure-box-07"></div>
+							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">We collect and store data</h4>
+                                    <p class="text-sm mb-0">We collect and store TBs of data of every market movement from different exchanges across numerous trading instruments</p>
+                                </div>
+                            </div>
+							<div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
+                                    </div>
+                                    <h4 class="feature-title mt-24">We use backtesting</h4>
+                                    <p class="text-sm mb-0">We prove the quality of our strategies using backtesting with all the collected data</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+                                    </div>
+                                    <h4 class="feature-title mt-24">We build strong infrastructure</h4>
+                                    <p class="text-sm mb-0">All of our trading algos are maintenanced by a solid infrastructure that is built by professional engineers and traders</p>
+                                </div>
+                            </div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+									</div>
+									<h4 class="feature-title mt-24">We diversify trading risks</h4>
+									<p class="text-sm mb-0">Off of the assets are distributed between well-diversified strategies</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+									</div>
+									<h4 class="feature-title mt-24">We diversify portfolio</h4>
+									<p class="text-sm mb-0">Our team uses the best portfolio management methods</p>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="cta section">
 				<div class="container">
-					<div class="inner">
-						<h1>I create</h1>
-						<h1 class="subtitle">and put my soul in, shaping the masterpiece</h1>
-					</div>
-
-				</div>
-			</div>
-			<div class="swiper-slide theme-2">
-				<div class="container">
-					<div class="inner">
-						<h1>I Strive</h1>
-						<h1 class="subtitle">because the Internet deserves better</h1>
-					</div>
-				</div>
-			</div>
-			<div class="swiper-slide theme-3">
-				<div class="container">
-					<div class="inner">
-						<h1>I am</h1>
-						<div class="logo"><span>M. Kovetsky</span></div>
-						<h1 class="subtitle">And I inspire</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-pagination"></div>
-		<div class="btn-slide btn-prev hidden"></div>
-		<div class="btn-slide btn-next"></div>
-	</div>
-	
-</div>
-
-<!-- About-me-modal BEGIN-->
-<div class="modal animated fadeIn" id="about-me-modal">
-	<div class="modal-dialog">
-		<div class="modal-content">
-		<button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
-			<div class="modal-header">
-				<div class="subtitle">
-					<h2>Mike Kovetsky</h2>
-					<span>Front-End Development</span>
-					<hr>
-				</div>
-			</div>
-			<div class="modal-body">
-				<div class="person-info">
-					<div class="col">
-						<h4>About Me</h4>
-						<p>Born in Kyiv, Ukraine. Junior Front-End Developer with a 1 year experiance of development. Love my job and adore innovative projects. Have a great team including designer and back-end masters. Always try to push the limits of the Internet.</p>
-						<p>Main skills: HTML5, CSS3, Javascript, Photoshop, Bootstrap, Wordpress, Python, Django, Angular JS.</p>
-						<p>Additional skills: 3D-graphics (Blender), C++.</p>
-						<p>English level: Upper-Intermediate.</p>
-					</div>
-					<div class="col">
-						<div class="img"></div>
-					</div>
-					<div class="col">
-						<h4>Contacts</h4>
-						<div class="row"><span>e-mail : </span><span>myxanok@gmail.com</span></div>
-						<div class="row"><span>Elance Account :</span><a href="https://www.elance.com/s/edit/mkovetsky/">mkovetsky</a></div>
-						<div class="row"><span>Moblie Phone : </span><span>+380975465626</span></div>
-						<div class="row"><span>Use either Telegram or Viber</span></div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<div class="row">
-						<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
-						<div class="socials"><ul>
-						<li><a href="https://ua.linkedin.com/in/mike-kovetsky-452476109"><i class="fa fa-linkedin-square"></i></a></li>
-						<li><a href="https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
-						<li><a href="https://www.facebook.com/profile.php?id=100010583743954"><i class="fa fa-facebook-official"></i></a></li>
-						<!-- <li><a href="http://mikekovetsky.github.io/"><i class="fa fa-github"></i></a></li> -->
-					</ul>
-						</div>
-					</div>
-				</div>				
-		</div>
-	</div>
-</div>
-</div>
-<!-- About-me-modal END-->
-
-<!-- Works-modal BEGIN -->
-<div class="modal animated fadeIn" id="works-modal">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
-			<div class="modal-header"><span>my lastest works</span></div>
-			<div class="modal-body">
-				<div class="row">
-					<div id="filter-container">
-						<div class="filter_div controls">
-
-							<ul class="ul-filter">
-								<li class="filter active" data-filter="all">All works</li>
-								<li class="filter" data-filter=".category_1">Landings</li>
-								<li class="filter" data-filter=".category_2">Internet Shop</li>
-								<li class="filter" data-filter=".category_3">3D-graphics works</li>
-							</ul>
-							<hr>
-						</div>
-						<div id="portfolio_grid">
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
-								<img src="images/markizy.jpg" alt="">
-								<div class="overlay">
-									<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
-									<span>A fully-responsive landing</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
-								<img src="images/dore.jpg" alt="">
-								<div class="overlay">
-									<a href="http://dore.ua/" class="name">Dore.ua</a>
-									<span>A fully-responsive Internet shop</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
-								<img src="images/rollety.jpg" alt="">
-								<div class="overlay">
-									<a href="http://td-tekko.com/" class="name">td-tekko.com</a>
-									<span>A fully-responsive landing</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
-								<img src="images/3d-work-1.jpg" alt="">
-								<div class="overlay">
-									<a href="images/3d-work-1.jpg" class="name">Sakura</a>
-									<span>Inspired by A. Price</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
-								<img src="images/chess.jpg" alt="">
-								<div class="overlay">
-									<a href="images/chess.jpg" class="name">Chess</a>
-									<span>Just some chess</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
-								<img src="images/otakaty.jpg" alt="">
-								<div class="overlay">
-									<a href="http://td-tekko.org/" class="name">td-tekko.org</a>
-									<span>A fully-responsive landing</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
-								<img src="images/dore-2.jpg" alt="">
-								<div class="overlay">
-									<a href="http://dore.ua/" class="name">dore.ua</a>
-									<span>A fully-responsive Internet Shop</span>
-								</div>
-							</div>
-							<div data-bound="false" class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
-								<img src="images/markizy-2.jpg" alt="">
-								<div class="overlay">
-									<a href="http://td-tekko.net/" class="name">td-tekko.net</a>
-									<span>A fully-responsive landing</span>
-								</div>
-							</div>
+					<div class="cta-inner section-inner">
+						<h3 class="section-title mt-0">Still not convinced on contacting?</h3>
+						<div class="cta-cta">
+							<a class="button button-primary button-wide-mobile" href="mailto:Fishermentrading@gmail.com">Contact Us</a>
 						</div>
 					</div>
 				</div>
+			</section>
+        </main>
 
-			<div class="modal-footer">
-				<div class="row">
-					<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
-						<div class="socials"><ul>
-						<li><a href="https://ua.linkedin.com/in/mike-kovetsky-452476109"><i class="fa fa-linkedin-square"></i></a></li>
-						<li><a href="https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
-						<li><a href="https://www.facebook.com/profile.php?id=100010583743954"><i class="fa fa-facebook-official"></i></a></li>
-						<!-- <li><a href="http://mikekovetsky.github.io/"><i class="fa fa-github"></i></a></li> -->
-					</ul>
-						</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
-<!-- Works-modal END -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+						<a href="#">
+							<img class="header-logo-image" src="src/images/favicon/fishing.ico" alt="Logo" width="32px">
+						</a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#" href="mailto:Fishermentrading@gmail.com">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+<!--                        <li>-->
+<!--                            <a href="#">-->
+<!--                                <span class="screen-reader-text">Facebook</span>-->
+<!--                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>-->
+<!--                                </svg>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">-->
+<!--                                <span class="screen-reader-text">Twitter</span>-->
+<!--                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>-->
+<!--                                </svg>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">-->
+<!--                                <span class="screen-reader-text">Google</span>-->
+<!--                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>-->
+<!--                                </svg>-->
+<!--                            </a>-->
+<!--                        </li>-->
+                    </ul>
+                    <div class="footer-copyright">&copy; 2021 Fishermen, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-<!-- callBackmodal BEGIN -->
-<div class="modal animated fadeIn" id="callback-modal">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header row">
-				<h4 class="modal-title">CallBack</h4>
-				<button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
-			</div>
-			<div class="modal-body">
-				<div class="row">
-					<span class="text">You may e-mail me:</span>
-				</div>
-				<form id="callback-form" action="http://formspree.io/myxanok@gmail.com" method="post">
-					<fieldset>
-					<div class="row">
-						<label class="col-sm-3" for="name-input">Name:</label>
-						<input  class="col-sm-6" type="text" name="name" id="name-input" required minlength="2">
-					</div>
-					<div class="row">
-						<label class="col-sm-3" for="email-input">Your e-mail:</label>
-						<input  class="col-sm-6" type="email" name="email" id="email-input" required>
-					</div>
-					<div class="row">
-						<label  class="col-sm-3" for="message-input">The message:</label>
-						<textarea id="message-input" class="col-sm-6" name="message" required> </textarea>
-					</div>
-					<div class="row">
-						<div class="col-sm-3 col-xs-3"></div>
-						<div class="col-sm-6 col-xs-6 button-container">
-						<button class="btn btn-primary">send</button></div>
-					</div>
-					</fieldset>
-				</form>
-			<div class="modal-footer">
-				<div class="row">
-					<div class="my-name"><span>© 2015 M. Kovetsky</span></div>
-					<div class="socials"><ul>
-						<li><a href="https://ua.linkedin.com/in/mike-kovetsky-452476109"><i class="fa fa-linkedin-square"></i></a></li>
-						<li><a href="https://vk.com/id163609862"><i class="fa fa-vk"></i></a></li>
-						<li><a href="https://www.facebook.com/profile.php?id=100010583743954"><i class="fa fa-facebook-official"></i></a></li>
-						<!-- <li><a href="http://mikekovetsky.github.io/"><i class="fa fa-github"></i></a></li> -->
-					</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-<!-- callBackmodal END -->
-
-
-
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/swiper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="js/jquery.mixitup.min.js"></script>
-
-
-
-<script>
-
-
-	var TeamSwiper = new Swiper('.swiper-team', {
-		pagination: '.swiper-pagination-team',
-		effect: 'coverflow',
-		grabCursor: true,
-		centeredSlides: true,
-		slidesPerView: 'auto',
-		coverflow: {
-			rotate: 50,
-			stretch: 0,
-			depth: 100,
-			modifier: 1,
-			slideShadows : true
-		}
-	});
-
-
-
-	var mainSwiper = new Swiper('.welcome .swiper-container', {
-		pagination: '.welcome .swiper-pagination',
-		effect: 'cube',
-		nextButton: '.btn-next',
-		prevButton: '.btn-prev',
-		grabCursor: true,
-		speed: 700,
-		cube: {
-			shadow: false,
-			slideShadows: false,
-			shadowOffset: 20,
-			shadowScale: 0.94
-		},
-
-		onTransitionStart: function (mainSwiper) {
-			var nextSlideIndex = mainSwiper.activeIndex;
-			var newColor = '';
-			var newColor2 = '';
-			if (nextSlideIndex === 0) {
-				newColor = '#8EC9B0';
-				newColor2 = '#141217';
-				$('.btn-prev').addClass('hidden');
-			}
-			if (nextSlideIndex === 1) {
-				newColor = '#C7DDFB';
-				newColor2 = '#0A0C15';
-				$('.btn-prev').removeClass('hidden');
-				$('.btn-next').removeClass('hidden');
-			} 
-			if (nextSlideIndex === 2) {
-				newColor = '#FBC489';
-				newColor2 = '#1F1613';
-				$('.btn-next').addClass('hidden');
-			}
-			$('.swiper-pagination-bullet').css( "background-color", "black");
-			$('.swiper-pagination-bullet-active').css( "background-color", newColor );
-			$( ".menu" ).children().css( "color", newColor );
-			$('.modal-dialog .modal-content').css('color', newColor);
-			$('.modal-dialog .modal-content').css('background', newColor2);
-
-
-		}	
-	});
-	$(document).ready(function() {
-	  $('.welcome').addClass('animated fadeIn');
-	  $('.theme-1 .inner').children().addClass('animated fadeIn');
-	  $('.menu').children().addClass('animated fadeIn');
-	  $('.btn-slide').addClass('animated fadeIn');
-	  $('#callback-form').validate();
-
-	  $(function(){
-		$('#filter-container').mixItUp({
-			animation: {
-				effects: 'fade rotateX(180deg)',
-				duration: 2500
-			}
-			});
-		});
-	  $('#portfolio_grid').mixItUp();
-	  $('.filter').click(function() {
-		$('.filter').removeClass('active');
-		$(this).addClass('active');
-	});
-
-	  $("#callback-form").validate();
-	  
-});
-	</script>
-
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>

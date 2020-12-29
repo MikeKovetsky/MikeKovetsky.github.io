@@ -1,96 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51a3053e-a0df-4a1e-92bf-790fb7eb2480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MikeKovetsky.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cta-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/favicon/fishing.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/feature-icon-06.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hero-back-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hero-top-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pricing-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_include-media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/base/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3d-work-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chess.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dore-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/down13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer_lodyas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fore-bird-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fore-bird-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fore-bird-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/markizy-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/markizy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/nice_snow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/orange_flowers_11-wallpaper-1600x900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/otakaty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photo-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rollety-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rollety.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.mixitup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/swiper.min.js" beforeDir="false" />
-    </list>
+    <list default="true" id="51a3053e-a0df-4a1e-92bf-790fb7eb2480" name="Default Changelist" comment="text fix" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -100,13 +11,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="85">
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -125,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/dist/js/main.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -188,20 +102,18 @@
             <path>
               <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MikeKovetsky.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MikeKovetsky.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="favicon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,16 +169,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609254455355</updated>
-      <workItem from="1609254456893" duration="2184000" />
+      <workItem from="1609254456893" duration="2442000" />
     </task>
+    <task id="LOCAL-00001" summary="fishermen landing added">
+      <created>1609257096241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609257096241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="text fix">
+      <created>1609257159638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609257159638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2184000" />
+    <option name="totallyTimeSpent" value="2442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -289,6 +215,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fishermen landing added" />
+    <MESSAGE value="text fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="text fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1/Trading Consultant Website Template _ WIX.htm">
@@ -409,7 +340,7 @@
     <entry file="file://$PROJECT_DIR$/dist/js/main.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -439,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="85">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
         </state>
       </provider>
     </entry>
